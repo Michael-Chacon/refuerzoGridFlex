@@ -149,3 +149,31 @@ main .noticiasPrincipales .otrasNoticias .noticia{
    padding: 15px;
    border-radius: 10px;
 }
+
+/* Patrocinadores */
+.patrocinadores{
+    height: 15vh;
+    display: flex;
+    justify-content: end;
+    outline: 1px solid cornflowerblue;
+    gap: 20px;
+}
+
+/* categorias */
+
+.categorias{
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+footer{
+    outline: 1px solid red;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
