@@ -52,7 +52,7 @@ main .home .card{
     box-sizing: border-box;
 }
 
-
+/* Noticias */
 main .noticiasPrincipales{
     outline: 1px solid black;
     width: 100%;
@@ -84,4 +84,68 @@ main .noticiasPrincipales .otrasNoticias .noticia{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+/* info */
+
+.info{
+    outline: 2px solid red;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.info .tabla{
+    outline: 1px solid orange;
+    height: 70%;
+    width: 40%;
+}
+
+.mapaForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: end; */
+    outline: 1px solid blue;
+    height: 100%;
+    width: 100%;
+}
+
+.info .mapa{
+    height: 200px;
+    width: 100%;
+    outline: 1px solid rgb(197, 20, 43);
+}
+
+.mapaForm .formulario{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    outline: 3px solid yellow;
+    overflow-y: scroll;
+    text-align: center;
+}
+
+.formulario form{
+    width: 400px;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario form input ,textarea{
+   margin: 5px 10px;
+   padding: 15px;
+   border-radius: 10px;
+}
+
+.formulario form button{
+    margin: 5px 10px;
+   padding: 15px;
+   border-radius: 10px;
 }
