@@ -91,7 +91,8 @@ main .home .card{
 }
 
 .home .card button:hover{
-    background-color: rgb(221, 36, 36);
+    background-color: rgb(204, 15, 15);
+    outline: 1px solid white;
     /* filter: drop-shadow(2px 2px 1px rgba(241, 9, 9, 0.5)); */
 }
 
@@ -186,21 +187,71 @@ main .noticiasPrincipales .otrasNoticias .noticia{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    /* gap: 50px; */
+}
+
+.tablaRedes{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
 }
 
 .info .tabla{
-    outline: 1px solid orange;
-    height: 70%;
-    width: 40%;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 470px;
+    height: 368px;
+    padding-top: 50px;
+}
+
+.info .tabla table th, td{
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: rgb(186, 187, 186) 1px solid;
+}
+
+.escudo{
+    width: 20px;
+    height: 20px;
+    padding-top: 2px;
+}
+
+.redes{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.redes i{
+    color: red;
+    font-size: 30px;
+}
+
+.redes i:hover{
+    color: black;
+    cursor: pointer;
 }
 
 .mapaForm{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* align-items: end; */
-    outline: 1px solid blue;
     height: 100%;
     width: 100%;
 }
@@ -208,7 +259,6 @@ main .noticiasPrincipales .otrasNoticias .noticia{
 .info .mapa{
     height: 200px;
     width: 100%;
-    outline: 1px solid rgb(197, 20, 43);
 }
 
 .mapaForm .formulario{
@@ -217,7 +267,6 @@ main .noticiasPrincipales .otrasNoticias .noticia{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    outline: 3px solid yellow;
     overflow-y: scroll;
     text-align: center;
 }
@@ -233,12 +282,19 @@ main .noticiasPrincipales .otrasNoticias .noticia{
    margin: 5px 10px;
    padding: 15px;
    border-radius: 10px;
+   border-style: none;
+   border: 1px solid gray;
 }
 
 .formulario form button{
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
     margin: 5px 10px;
-   padding: 15px;
-   border-radius: 10px;
+    padding: 13px;
+    border-radius: 10px;
 }
 
 /* Patrocinadores */
