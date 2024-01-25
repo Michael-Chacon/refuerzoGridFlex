@@ -187,7 +187,6 @@ main .noticiasPrincipales .otrasNoticias .noticia{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* gap: 50px; */
 }
 
 .tablaRedes{
@@ -198,6 +197,9 @@ main .noticiasPrincipales .otrasNoticias .noticia{
     align-items: center;
     justify-content: center;
     gap: 40px;
+    background-color: #f5f1f1;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .info .tabla{
@@ -209,6 +211,8 @@ main .noticiasPrincipales .otrasNoticias .noticia{
     width: 470px;
     height: 368px;
     padding-top: 50px;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .info .tabla table th, td{
@@ -230,12 +234,15 @@ tr {
 }
 
 .redes{
-    width: 100%;
+    width: 60%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .redes i{
@@ -252,16 +259,25 @@ tr {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     height: 100%;
     width: 100%;
+    /* border: 1px solid red; */
+    background-color: #f5f1f1;
 }
 
 .info .mapa{
+    margin-top: 15px;
+    margin-right: 20px;
     height: 200px;
-    width: 100%;
+    padding: 10px;
+    width: 508px;
+    background-color: #fff;
+    border-radius: 10px;
 }
 
 .mapaForm .formulario{
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -269,13 +285,18 @@ tr {
     align-items: center;
     overflow-y: scroll;
     text-align: center;
+    /* border: 1px solid blue; */
 }
 
 .formulario form{
-    width: 400px;
+    padding: 10px;
+    width: 500px;
     /* height: 100%; */
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .formulario form input ,textarea{
